@@ -1,0 +1,115 @@
+.remark-slide-content {
+  background-image: url('./logo_ita1.png'), linear-gradient(to bottom, #dde6ed 92%, rgba(93,138,168) 100%)  ;
+  background-position: 2% 98%, center ;
+  background-size: 110px, cover ;
+  font-size: 18pt;
+  color: #324c5d;
+  font-family: Sans-Serif;
+}
+
+.remark-slide-content h1 {
+  color: #4d7690;
+  font-weight: bold;
+  font-size: 34pt;
+  font-family: Sans-Serif;
+}
+
+.remark-slide-content h2{
+  color: #4d7690;
+  font-weight: bold;
+  font-size: 32pt;
+  font-family: Sans-Serif;
+}
+
+.remark-slide-content h3 {
+  color: #4d7690;
+  font-weight: bold;
+  font-size: 30pt;
+  font-family: Sans-Serif;
+}
+
+
+.title-slide {
+  background-image: url('./ITAaereo1.png'), linear-gradient(to bottom, #dde6ed 10%, rgba(236, 236, 236) 100%)  ;
+  background-position: 3% 3%, 100% 100% ;
+  background-size: 250px, 100% 81% ;
+  font-family: Sans-Serif;
+}
+
+.title-slide h1 {
+  text-align: center;
+  color: #324c5d;
+  font-weight: bold;
+  font-size: 30pt;
+  margin-top: 10%;
+  font-family: Sans-Serif;
+}
+
+.title-slide h2 {
+  text-align: right;
+  font-weight: normal;
+  color: #476b84;
+  font-size: 26pt
+  font-family: Sans-Serif;
+}
+
+.title-slide h3 {
+  text-align: right;
+  color: #476b84;
+  font-size: 22pt;
+  font-weight: normal;
+  font-family: Sans-Serif;
+}
+
+.chapter-slide {
+  background-image: url("./LatinR_LOGOS-23.png"), linear-gradient(to bottom, #5542FF 1%, rgba(85, 66, 255) 95%) ;
+  background-position: 10px 590px , center;
+  background-size: 0px, cover ;
+  font-family: Sans-Serif;
+}
+
+.chapter-slide h1 {
+  position: absolute;
+  top: 55%;
+  left: 10%;
+  text-align: left;
+  color: #ECECEC;
+  font-size: 34pt;
+  font-family: Sans-Serif;
+}
+
+.chapter-slide h2 {
+  font-size: 32pt;
+  color: #ffffff ;
+  font-family: Sans-Serif;
+}
+
+/* Two-column layout */
+.left-column {
+  width: 40%;
+  float: left;
+  margin-top: -30px;
+}
+
+.right-column {
+  width: 58%;
+  float: right;
+  margin-top: -30px;
+}
+
+.pull-left {
+  float: left;
+  width: 47%;
+  margin-top: -30px;
+}
+.pull-right {
+  float: right;
+  width: 47%;
+  margin-top: -30px;
+}
+
+.remark-code, .remark-inline-code {
+  font-size: 20pt;
+  font-family: Sans-Serif;
+
+}

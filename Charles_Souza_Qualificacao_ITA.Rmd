@@ -1,0 +1,235 @@
+---
+title: "Qualificação"
+subtitle: ""
+author: "Charles Araujo de Souza"
+institute: "Instituto Tecnológico de Aeronáutica"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    chakra: libs/remark-latest.min.js # Offline
+    css: [cas.css, animate.css]
+    lib_dir: libs
+    nature:
+     # countdown: 60000
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: true
+     # slideNumberFormat: "%current%" # não mostra a qtd de páginas
+      ratio: 16:9 #  4:3
+
+---
+
+```{r PDF, echo=FALSE, eval=FALSE}
+# Não fica bom
+#pagedown::chrome_print('file:///C:/Users/Administrador/Documents/Pos/ITA/Doutorado/Apresentacoes/xaringan/xaringan/doutorado/Charles_Souza_Qualificacao_ITA.html?panelset2=introdu%25C3%25A7%25C3%25A3o3#1')
+```
+
+
+```{r}
+#xaringan::infinite_moon_reader()
+```
+
+
+
+```{r offline, echo=FALSE}
+
+xaringan::summon_remark(version = "latest", to = "libs/")
+
+```
+
+
+```{r over Tile view demo, echo=FALSE}
+# Atalho O
+xaringanExtra::use_tile_view()
+```
+
+```{r xaringan-scribble, echo=FALSE}
+# Atalho S
+xaringanExtra::use_scribble()
+```
+
+
+```{r compartilhar novamente, echo=FALSE}
+# Adicione use_share_again() aos seus slides
+xaringanExtra::use_share_again()
+```
+
+
+```{r style-share-again, echo=FALSE}
+# Estilize sua barra de compartilhamento e escolha sites de mídia social
+xaringanExtra::style_share_again(
+   share_buttons = c("twitter", "linkedin", "pocket")
+)
+```
+
+
+
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_duo_accent(
+  primary_color = "#353745", secondary_color = "#5d8aa8"
+  #,header_font_google = google_font("Josefin Sans"),
+ # text_font_google   = google_font("Montserrat", "300", "300i"),
+  #code_font_google   = google_font("Fira Mono")
+)
+```
+
+
+
+
+```{r toc, echo=FALSE}
+xaringanExtra::use_panelset()
+```
+class: animated zoomIn center
+# Sumário
+
+
+.panelset.sideways[
+.panel[.panel-name[Introdução]
+```r
+# código de interface do usuário brilhante aqui ...
+```
+
+xxxxxxxxx xxxxxxxxx xxxxxxxxxxx
+ xxxxxxxxxxx xxxxxxxxxxx
+ xxxxxxxx 
+
+
+]
+
+.panel[.panel-name[Capítulo 1]
+```r
+function(entrada, saída, sessão) {
+   # código de servidor brilhante aqui...
+}
+```
+xxxxx xxxxxxxxx xxxxxxxxxxx
+ xxxxxxxxxxx xxxxxxxxxxx
+ xxxxxxxx  xxxxx xxxxxxxxx xxxxxxxxxxx
+ xxxxxxxxxxx xxxxxxxxxxx
+ xxxxxxxx 
+
+
+
+]
+
+.panel[.panel-name[Capítulo 2]
+```r
+function(entrada, saída, sessão) {
+   # código de servidor brilhante aqui...
+}
+```
+xxxxx xxxxxxxxx xxxxxxxxxxx
+ xxxxxxxxxxx xxxxxxxxxxx
+ xxxxxxxx 
+xxxxx xxxxxxxxx xxxxxxxxxxx
+ xxxxxxxxxxx xxxxxxxxxxx
+ xxxxxxxx 
+xxxxx xxxxxxxxx xxxxxxxxxxx
+ xxxxxxxxxxx xxxxxxxxxxx
+ xxxxxxxx 
+
+]
+
+.panel[.panel-name[Capítulo 3]
+```r
+function(entrada, saída, sessão) {
+   # código de servidor brilhante aqui...
+}
+```
+xxxxx xxxxxxxxx xxxxxxxxxxx
+ xxxxxxxxxxx xxxxxxxxxxx
+ xxxxxxxx  xxx xxxxxxxxxxx
+ xxxxxxxx 
+xxxxx xxxxxxxxx xxxxxxxxxxx
+ xxxxxxxxxxx xxxxxxxxxxx
+ xxxxxxxx 
+
+]
+]
+
+
+
+
+---
+```{r xaringan-animate-css, echo=FALSE}
+xaringanExtra::use_animate_css()
+```
+class: animated fadeIn  inverse
+
+
+Teste 1
+
+---
+class: animated zoomIn 
+
+Teste 2
+---
+class: animated fadeIn
+Teste 3
+
+---
+class: animated zoomIn 
+ Teste 4
+
+
+---
+class: animated fadeIn
+Teste 5
+
+---
+class: animated zoomIn 
+ Teste 6
+
+
+---
+class: animated fadeIn
+Teste 7
+
+---
+class: animated zoomIn 
+ Teste 8
+
+
+---
+class: animated fadeIn
+Teste 9
+
+---
+class: animated zoomIn 
+ Teste 10
+
+
+---
+class: animated fadeIn
+Teste 11
+
+---
+class: animated zoomIn 
+ Teste 12
+ 
+
+---
+class: animated fadeIn
+Teste 13
+
+---
+class: animated zoomIn 
+ Teste 14
+
+---
+class: center
+
+background-image: url(ITAaereo1.png)
+background-position: 50% 50%
+background-size: cover
+class: inverse middle
+## Presenting like a kunoichi with ⚔️aringan
+1. Jot down in Markdown
+2. Prettify with CSS
+3. Interact with JS
+
+
+
+
